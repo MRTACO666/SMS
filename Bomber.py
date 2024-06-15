@@ -20,7 +20,7 @@ banner = colored("""
 """, "red")
 
 print(banner)
-_phone = input('Привет боец! Введите номер для атаки +')
+_phone = input('Введите номер для атаки +')
 if _phone[0] == '+':
 	_phone = _phone[1:]
 if _phone[0] == '8':
